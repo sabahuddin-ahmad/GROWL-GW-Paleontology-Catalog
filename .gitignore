@@ -21,3 +21,4 @@ ENV/
 .env
 .env.*
 !.env.example
+SYNC.md

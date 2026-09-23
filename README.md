@@ -1,11 +1,11 @@
 # GROWL - Gravitational Wave Paleontology Catalog
 
-This repository is a copy of [Floor Broekgaarden’s GROWL Catalog Public repository](https://github.com/FloorBroekgaarden/GROWL-catalog-public). The original notebooks and materials are developed by Floor Broekgaarden and the GROWL contributors. My contributions are limited to the solutions, comments, modifications, and exploratory analysis in notebooks available in the `my-work` branch.
+This repository is a copy of [Floor Broekgaarden’s GROWL Catalog Public repository](https://github.com/FloorBroekgaarden/GROWL-catalog-public). The original notebooks and materials are developed by Floor Broekgaarden and the GROWL team. I have added my solutions, comments, modifications, and analysis in notebooks available in the `my-work` branch.
 
 ## Repository Structure
 
 ### Branches
-* **`my-work`**: Default branch containing my completed exercises, notebooks, exploratory analyses, and additional project files.
+* **`my-work`**: Default branch containing my completed exercises, notebooks, analysis, and additional project files.
 * **`floor-main`**: Complete copy of the upstream repository, retained as a reference branch and used to track updates from the original project.
 
 ### Directory

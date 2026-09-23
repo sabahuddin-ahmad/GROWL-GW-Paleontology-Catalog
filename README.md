@@ -1,6 +1,19 @@
 # GROWL - Gravitational Wave Paleontology Catalog
 
-...
+This repository is a copy of [Floor Broekgaarden’s GROWL Catalog Public repository](https://github.com/FloorBroekgaarden/GROWL-catalog-public). The original notebooks and materials are developed by Floor Broekgaarden and the GROWL contributors. My contributions are limited to the solutions, comments, modifications, and exploratory analysis in notebooks available in the `my-work` branch.
+
+## Repository Structure
+
+### Branches
+* **`my-work`**: Default branch containing my completed exercises, notebooks, exploratory analyses, and additional project files.
+* **`floor-main`**: Complete copy of the upstream repository, retained as a reference branch and used to track updates from the original project.
+
+### Directory
+
+* `onboarding_growl`: This folder contains my attempts of the onboarding notebooks, including my solutions to the exercises, explanatory comments, and additional analysis.
+
+## License
+The original [material](https://github.com/FloorBroekgaarden/GROWL-catalog-public) is distributed under the MIT License.
 
 ## Local Setup
 
@@ -25,11 +38,9 @@ Use Python 3.10 or newer for this repository.
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/sabahuddin-ahmad/GROWL-GW-Paleontology-Catalog
+cd GROWL-GW-Paleontology-Catalog
 ```
-
-Replace `<repository-url>` and `<repository-directory>` with the actual repository details.
 
 ### 2. Create a Virtual Environment
 
@@ -129,7 +140,9 @@ The arguments mean:
 - `--name gw-astrophysics` sets the internal kernel identifier.
 - `--display-name "Python 3.13 (GW Astrophysics)"` sets the name displayed in Jupyter and VS Code.
 
-### 9. Start Jupyter Notebook
+### OPTIONAL
+
+Start Jupyter Notebook
 
 ```bash
 jupyter notebook
@@ -141,7 +154,7 @@ Open an `.ipynb` file and select:
 Kernel → Change Kernel → Python 3.13 (GW Astrophysics)
 ```
 
-### 10. Start JupyterLab
+Start JupyterLab
 
 ```bash
 jupyter lab
@@ -149,7 +162,7 @@ jupyter lab
 
 Select `Python 3.13 (GW Astrophysics)` from the kernel selector.
 
-### 11. Select the Kernel in VS Code
+### 9. Select the Kernel in VS Code
 
 1. Open the repository in VS Code.
 2. Open an `.ipynb` notebook.
@@ -171,7 +184,7 @@ On Windows:
 .venv\Scripts\python.exe
 ```
 
-### 12. Verify the Notebook Kernel
+### 10. Verify the Notebook Kernel
 
 Run the following code in a notebook cell:
 
@@ -201,7 +214,7 @@ print("pandas:", pd.__version__)
 print("Matplotlib:", matplotlib.__version__)
 ```
 
-### 13. List Available Jupyter Kernels
+### 11. List Available Jupyter Kernels
 
 ```bash
 jupyter kernelspec list
@@ -209,7 +222,7 @@ jupyter kernelspec list
 
 The output should include a kernel named `gw-astrophysics`.
 
-### 14. Remove the Kernel
+### 12. Remove the Kernel
 
 To remove the registered kernel later:
 
@@ -219,14 +232,13 @@ jupyter kernelspec uninstall gw-astrophysics
 
 This removes the Jupyter kernel registration. It does not delete the `.venv` directory.
 
-### 15. Deactivate the Virtual Environment
+### 13. Deactivate the Virtual Environment
 
 ```bash
 deactivate
 ```
 
-
-### 16. Optional: Record Exact Dependency Versions
+### 14. Optional: Record Exact Dependency Versions
 
 The supplied `requirements.txt` uses unpinned package names so that `pip` installs compatible current releases.
 
